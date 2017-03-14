@@ -1,3 +1,7 @@
+# App built from Electron Quick Start (See Below)
+
+Provides GUI for interfacing with CNC Pipe Organ bot.  The different buttons correspond to different notes of the organ.
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**

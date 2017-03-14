@@ -2,18 +2,30 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>CNC GUI</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <h1>CNC GUI</h1>
+    <button type="button" name="button" id="home">HOME</button>
+    <button type="button" name="button" id="unlock">UnLock</button>
+    <button type="button" name="button" id="A1">A1</button>
+    <button type="button" name="button" id="A2">A2</button>
+    <button type="button" name="button" id="A3">A3</button>
+    <button type="button" name="button" id="B1">B1</button>
+    <button type="button" name="button" id="B2">B2</button>
+    <button type="button" name="button" id="B3">B3</button>
+    <button type="button" name="button" id="C1">C1</button>
+    <button type="button" name="button" id="C2">C2</button>
+    <button type="button" name="button" id="C3">C3</button>
+    <button type="button" name="button" id="D1">D1</button>
+    <button type="button" name="button" id="D2">D2</button>
+    <button type="button" name="button" id="D3">D3</button>
   </body>
-
+  <!--<script src="p5.js"></script>
+  <script src="sketch.js"></script>-->
   <script>
     // You can also require other files to run in this process
+    //require('./p5.js')
     require('./renderer.js')
   </script>
 </html>
