@@ -1,0 +1,9 @@
+button {
+  border: none;
+  margin: 1vw;
+  height: 10vh;
+  width: 30vw;
+  background-color: green;
+  color: white;
+  font-size: 13px;
+}
